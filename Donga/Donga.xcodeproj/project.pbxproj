@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9458E62B24673CA4009E96D9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9458E62A24673CA4009E96D9 /* HomeViewController.swift */; };
+		9474BA30246790AB00FE16CF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9474BA2F246790AB00FE16CF /* ListViewController.swift */; };
+		9474BA32246790BC00FE16CF /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9474BA31246790BB00FE16CF /* CreateViewController.swift */; };
+		94B2E5F9245DC2E200F074ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2E5F8245DC2E200F074ED /* AppDelegate.swift */; };
+		94B2E5FE245DC2E200F074ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E5FC245DC2E200F074ED /* Main.storyboard */; };
+		94B2E600245DC2E400F074ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E5FF245DC2E400F074ED /* Assets.xcassets */; };
+		94B2E603245DC2E400F074ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E601245DC2E400F074ED /* LaunchScreen.storyboard */; };
+		94B2E60E245DC2E500F074ED /* DongaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2E60D245DC2E500F074ED /* DongaTests.swift */; };
+		94B2E619245DC2E500F074ED /* DongaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2E618245DC2E500F074ED /* DongaUITests.swift */; };
+		94B2E627245DC37000F074ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E626245DC37000F074ED /* GoogleService-Info.plist */; };
+		94B2E629245DCAF800F074ED /* TopGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E628245DCAF800F074ED /* TopGradient.png */; };
+		94B2E62B245DCC1200F074ED /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E62A245DCC1200F074ED /* Background.jpg */; };
+		94B2E62D245DCD2500F074ED /* nick-nice-gPm8h3DS1s4-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E62C245DCD2500F074ED /* nick-nice-gPm8h3DS1s4-unsplash.jpg */; };
+		94B2E62F245DD78C00F074ED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2E62E245DD78C00F074ED /* SignUpViewController.swift */; };
+		94B2E635245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E634245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg */; };
+		94B2E636245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E634245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg */; };
+		94B2E637245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E634245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg */; };
+		94B2E639245DEA7100F074ED /* BottomGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E638245DEA7100F074ED /* BottomGradient.png */; };
+		94B2E63A245DEA7100F074ED /* BottomGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E638245DEA7100F074ED /* BottomGradient.png */; };
+		94B2E63B245DEA7100F074ED /* BottomGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B2E638245DEA7100F074ED /* BottomGradient.png */; };
+		94B978B0245F155E00F37463 /* Sign-inViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B978AF245F155E00F37463 /* Sign-inViewController.swift */; };
+		94B978B1245F155E00F37463 /* Sign-inViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B978AF245F155E00F37463 /* Sign-inViewController.swift */; };
+		94B978B2245F155E00F37463 /* Sign-inViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B978AF245F155E00F37463 /* Sign-inViewController.swift */; };
+		94B978B4245F258300F37463 /* Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B978B3245F258300F37463 /* Email.png */; };
+		94B978B5245F258300F37463 /* Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B978B3245F258300F37463 /* Email.png */; };
+		94B978B6245F258300F37463 /* Email.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B978B3245F258300F37463 /* Email.png */; };
+		B2E3317C9F8887418F068224 /* Pods_Donga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4734EF9FD634E3A7F3DDFE /* Pods_Donga.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B2E60A245DC2E500F074ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B2E5ED245DC2E200F074ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B2E5F4245DC2E200F074ED;
+			remoteInfo = Donga;
+		};
+		94B2E615245DC2E500F074ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B2E5ED245DC2E200F074ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B2E5F4245DC2E200F074ED;
+			remoteInfo = Donga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A185AA205BF5B866E1566C2 /* Pods-Donga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donga.debug.xcconfig"; path = "Target Support Files/Pods-Donga/Pods-Donga.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4734EF9FD634E3A7F3DDFE /* Pods_Donga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9458E62A24673CA4009E96D9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9474BA2F246790AB00FE16CF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9474BA31246790BB00FE16CF /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		94B2E5F5245DC2E200F074ED /* Donga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Donga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2E5F8245DC2E200F074ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B2E5FD245DC2E200F074ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B2E5FF245DC2E400F074ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B2E602245DC2E400F074ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B2E604245DC2E400F074ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2E609245DC2E500F074ED /* DongaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2E60D245DC2E500F074ED /* DongaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongaTests.swift; sourceTree = "<group>"; };
+		94B2E60F245DC2E500F074ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2E614245DC2E500F074ED /* DongaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2E618245DC2E500F074ED /* DongaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongaUITests.swift; sourceTree = "<group>"; };
+		94B2E61A245DC2E500F074ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2E626245DC37000F074ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94B2E628245DCAF800F074ED /* TopGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopGradient.png; sourceTree = "<group>"; };
+		94B2E62A245DCC1200F074ED /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		94B2E62C245DCD2500F074ED /* nick-nice-gPm8h3DS1s4-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nick-nice-gPm8h3DS1s4-unsplash.jpg"; sourceTree = "<group>"; };
+		94B2E62E245DD78C00F074ED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		94B2E634245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "majid-rangraz-9U-cMS5oGeI-unsplash.jpg"; sourceTree = "<group>"; };
+		94B2E638245DEA7100F074ED /* BottomGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BottomGradient.png; sourceTree = "<group>"; };
+		94B978AF245F155E00F37463 /* Sign-inViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign-inViewController.swift"; sourceTree = "<group>"; };
+		94B978B3245F258300F37463 /* Email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Email.png; sourceTree = "<group>"; };
+		C3B0DC126FE71D586C18F3D2 /* Pods-Donga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donga.release.xcconfig"; path = "Target Support Files/Pods-Donga/Pods-Donga.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B2E5F2245DC2E200F074ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E3317C9F8887418F068224 /* Pods_Donga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E606245DC2E500F074ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E611245DC2E500F074ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A50E1724663A8A000FBC55 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		94B2E5EC245DC2E200F074ED = {
+			isa = PBXGroup;
+			children = (
+				94B2E5F7245DC2E200F074ED /* Donga */,
+				94B2E60C245DC2E500F074ED /* DongaTests */,
+				94B2E617245DC2E500F074ED /* DongaUITests */,
+				94B2E5F6245DC2E200F074ED /* Products */,
+				E7B0CEE73D30E5DA58B5F37B /* Pods */,
+				D40C8E531E08F957D62EAAEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94B2E5F6245DC2E200F074ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B2E5F5245DC2E200F074ED /* Donga.app */,
+				94B2E609245DC2E500F074ED /* DongaTests.xctest */,
+				94B2E614245DC2E500F074ED /* DongaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B2E5F7245DC2E200F074ED /* Donga */ = {
+			isa = PBXGroup;
+			children = (
+				94A50E1724663A8A000FBC55 /* model */,
+				94B2E5F8245DC2E200F074ED /* AppDelegate.swift */,
+				9458E62A24673CA4009E96D9 /* HomeViewController.swift */,
+				94B2E62E245DD78C00F074ED /* SignUpViewController.swift */,
+				94B978AF245F155E00F37463 /* Sign-inViewController.swift */,
+				9474BA2F246790AB00FE16CF /* ListViewController.swift */,
+				9474BA31246790BB00FE16CF /* CreateViewController.swift */,
+				94B978B3245F258300F37463 /* Email.png */,
+				94B2E638245DEA7100F074ED /* BottomGradient.png */,
+				94B2E634245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg */,
+				94B2E62C245DCD2500F074ED /* nick-nice-gPm8h3DS1s4-unsplash.jpg */,
+				94B2E5FC245DC2E200F074ED /* Main.storyboard */,
+				94B2E62A245DCC1200F074ED /* Background.jpg */,
+				94B2E5FF245DC2E400F074ED /* Assets.xcassets */,
+				94B2E628245DCAF800F074ED /* TopGradient.png */,
+				94B2E601245DC2E400F074ED /* LaunchScreen.storyboard */,
+				94B2E604245DC2E400F074ED /* Info.plist */,
+				94B2E626245DC37000F074ED /* GoogleService-Info.plist */,
+			);
+			path = Donga;
+			sourceTree = "<group>";
+		};
+		94B2E60C245DC2E500F074ED /* DongaTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B2E60D245DC2E500F074ED /* DongaTests.swift */,
+				94B2E60F245DC2E500F074ED /* Info.plist */,
+			);
+			path = DongaTests;
+			sourceTree = "<group>";
+		};
+		94B2E617245DC2E500F074ED /* DongaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94B2E618245DC2E500F074ED /* DongaUITests.swift */,
+				94B2E61A245DC2E500F074ED /* Info.plist */,
+			);
+			path = DongaUITests;
+			sourceTree = "<group>";
+		};
+		D40C8E531E08F957D62EAAEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4734EF9FD634E3A7F3DDFE /* Pods_Donga.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B0CEE73D30E5DA58B5F37B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A185AA205BF5B866E1566C2 /* Pods-Donga.debug.xcconfig */,
+				C3B0DC126FE71D586C18F3D2 /* Pods-Donga.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B2E5F4245DC2E200F074ED /* Donga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2E61D245DC2E500F074ED /* Build configuration list for PBXNativeTarget "Donga" */;
+			buildPhases = (
+				C6C0056C49F4D04CFCD0BE73 /* [CP] Check Pods Manifest.lock */,
+				94B2E5F1245DC2E200F074ED /* Sources */,
+				94B2E5F2245DC2E200F074ED /* Frameworks */,
+				94B2E5F3245DC2E200F074ED /* Resources */,
+				195BD35B0E8F13389FC6D2A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Donga;
+			productName = Donga;
+			productReference = 94B2E5F5245DC2E200F074ED /* Donga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B2E608245DC2E500F074ED /* DongaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2E620245DC2E500F074ED /* Build configuration list for PBXNativeTarget "DongaTests" */;
+			buildPhases = (
+				94B2E605245DC2E500F074ED /* Sources */,
+				94B2E606245DC2E500F074ED /* Frameworks */,
+				94B2E607245DC2E500F074ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B2E60B245DC2E500F074ED /* PBXTargetDependency */,
+			);
+			name = DongaTests;
+			productName = DongaTests;
+			productReference = 94B2E609245DC2E500F074ED /* DongaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B2E613245DC2E500F074ED /* DongaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2E623245DC2E500F074ED /* Build configuration list for PBXNativeTarget "DongaUITests" */;
+			buildPhases = (
+				94B2E610245DC2E500F074ED /* Sources */,
+				94B2E611245DC2E500F074ED /* Frameworks */,
+				94B2E612245DC2E500F074ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B2E616245DC2E500F074ED /* PBXTargetDependency */,
+			);
+			name = DongaUITests;
+			productName = DongaUITests;
+			productReference = 94B2E614245DC2E500F074ED /* DongaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B2E5ED245DC2E200F074ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "francis german";
+				TargetAttributes = {
+					94B2E5F4245DC2E200F074ED = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					94B2E608245DC2E500F074ED = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 94B2E5F4245DC2E200F074ED;
+					};
+					94B2E613245DC2E500F074ED = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 94B2E5F4245DC2E200F074ED;
+					};
+				};
+			};
+			buildConfigurationList = 94B2E5F0245DC2E200F074ED /* Build configuration list for PBXProject "Donga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B2E5EC245DC2E200F074ED;
+			productRefGroup = 94B2E5F6245DC2E200F074ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B2E5F4245DC2E200F074ED /* Donga */,
+				94B2E608245DC2E500F074ED /* DongaTests */,
+				94B2E613245DC2E500F074ED /* DongaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B2E5F3245DC2E200F074ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B978B4245F258300F37463 /* Email.png in Resources */,
+				94B2E603245DC2E400F074ED /* LaunchScreen.storyboard in Resources */,
+				94B2E627245DC37000F074ED /* GoogleService-Info.plist in Resources */,
+				94B2E639245DEA7100F074ED /* BottomGradient.png in Resources */,
+				94B2E62D245DCD2500F074ED /* nick-nice-gPm8h3DS1s4-unsplash.jpg in Resources */,
+				94B2E635245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */,
+				94B2E600245DC2E400F074ED /* Assets.xcassets in Resources */,
+				94B2E629245DCAF800F074ED /* TopGradient.png in Resources */,
+				94B2E5FE245DC2E200F074ED /* Main.storyboard in Resources */,
+				94B2E62B245DCC1200F074ED /* Background.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E607245DC2E500F074ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B978B5245F258300F37463 /* Email.png in Resources */,
+				94B2E63A245DEA7100F074ED /* BottomGradient.png in Resources */,
+				94B2E636245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E612245DC2E500F074ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B978B6245F258300F37463 /* Email.png in Resources */,
+				94B2E63B245DEA7100F074ED /* BottomGradient.png in Resources */,
+				94B2E637245DE43B00F074ED /* majid-rangraz-9U-cMS5oGeI-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		195BD35B0E8F13389FC6D2A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Donga/Pods-Donga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Donga/Pods-Donga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Donga/Pods-Donga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C0056C49F4D04CFCD0BE73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Donga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B2E5F1245DC2E200F074ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9474BA32246790BC00FE16CF /* CreateViewController.swift in Sources */,
+				9474BA30246790AB00FE16CF /* ListViewController.swift in Sources */,
+				94B978B0245F155E00F37463 /* Sign-inViewController.swift in Sources */,
+				94B2E62F245DD78C00F074ED /* SignUpViewController.swift in Sources */,
+				94B2E5F9245DC2E200F074ED /* AppDelegate.swift in Sources */,
+				9458E62B24673CA4009E96D9 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E605245DC2E500F074ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B978B1245F155E00F37463 /* Sign-inViewController.swift in Sources */,
+				94B2E60E245DC2E500F074ED /* DongaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2E610245DC2E500F074ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B978B2245F155E00F37463 /* Sign-inViewController.swift in Sources */,
+				94B2E619245DC2E500F074ED /* DongaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B2E60B245DC2E500F074ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B2E5F4245DC2E200F074ED /* Donga */;
+			targetProxy = 94B2E60A245DC2E500F074ED /* PBXContainerItemProxy */;
+		};
+		94B2E616245DC2E500F074ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B2E5F4245DC2E200F074ED /* Donga */;
+			targetProxy = 94B2E615245DC2E500F074ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B2E5FC245DC2E200F074ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B2E5FD245DC2E200F074ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B2E601245DC2E400F074ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B2E602245DC2E400F074ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B2E61B245DC2E500F074ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B2E61C245DC2E500F074ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B2E61E245DC2E500F074ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A185AA205BF5B866E1566C2 /* Pods-Donga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Donga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.Donga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B2E61F245DC2E500F074ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B0DC126FE71D586C18F3D2 /* Pods-Donga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Donga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.Donga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B2E621245DC2E500F074ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DongaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.DongaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donga.app/Donga";
+			};
+			name = Debug;
+		};
+		94B2E622245DC2E500F074ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DongaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.DongaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donga.app/Donga";
+			};
+			name = Release;
+		};
+		94B2E624245DC2E500F074ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DongaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.DongaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Donga;
+			};
+			name = Debug;
+		};
+		94B2E625245DC2E500F074ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DongaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prac.DongaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Donga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B2E5F0245DC2E200F074ED /* Build configuration list for PBXProject "Donga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2E61B245DC2E500F074ED /* Debug */,
+				94B2E61C245DC2E500F074ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2E61D245DC2E500F074ED /* Build configuration list for PBXNativeTarget "Donga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2E61E245DC2E500F074ED /* Debug */,
+				94B2E61F245DC2E500F074ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2E620245DC2E500F074ED /* Build configuration list for PBXNativeTarget "DongaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2E621245DC2E500F074ED /* Debug */,
+				94B2E622245DC2E500F074ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2E623245DC2E500F074ED /* Build configuration list for PBXNativeTarget "DongaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2E624245DC2E500F074ED /* Debug */,
+				94B2E625245DC2E500F074ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B2E5ED245DC2E200F074ED /* Project object */;
+}
